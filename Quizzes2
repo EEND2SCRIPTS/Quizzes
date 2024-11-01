@@ -1,0 +1,68 @@
+local CustomCategoryManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Damian-11/quizbot/master/quizbot.luau"))()
+
+local FootballEasy = CustomCategoryManager.New("Football/Soccer", "easy")
+FootballEasy:Add("Which country won the FIFA World Cup in 2014?",{"Germany", "Brazil", "Argentina", "Spain"})
+FootballEasy:Add("Who is known as 'The King of Football'?",{"Lionel Messi", "Pele", "Cristiano Ronaldo", "Diego Maradona"}, 2)
+FootballEasy:Add("What is the maximum number of players allowed on the field for one team during a soccer match?",{"11", "10", "9", "12"})
+FootballEasy:Add("Which position is primarily responsible for preventing the opposing team from scoring?",{"Goalkeeper", "Midfielder", "Defender", "Forward"})
+
+local FootballHard = CustomCategoryManager.New("Football/Soccer", "hard")
+FootballHard:Add("Which player holds the record for the most goals scored in a single calendar year, with 91 goals in 2012?",{"Lionel Messi", "Gerd Muller", "Cristiano Ronaldo", "Pele"})
+FootballHard:Add("What is the only country to have played in every FIFA World Cup since its inception in 1930?",{"Brazil", "Germany", "Argentina", "Italy"})
+    FootballHard:Add("Which club won the UEFA Champions League in the 1999 season with a dramatic late comeback in the final?",{"Manchester United", "AC Milan", "Real Madrid", "Barcelona"}, 2)
+FootballHard:Add("Who is the all-time top scorer in the UEFA Champions League as of 2023?",{"Cristiano Ronaldo", "Lionel Messi", "Raul", "Robert Lewandowski" })
+FootballHard:Add("Which country hosted the 2010 FIFA World Cup, becoming the first African nation to do so?",{"South Africa", "Nigeria", "Ghana", "Egypt"})
+
+local Economics = CustomCategoryManager.New("Economics")
+Economics:Add("What is GDP?",{"Gross Domestic Product", "General Development Plan", "Goverment Debt Policy", "Global Demand Process"})
+Economics:Add("Which of the following is a key principle of supply and demand?",{"Prices decrease as supply increases", "Demand always exceeds supply", "Prices increase as demand decreases", "Supply always matches demand perfectly"}, 2)
+Economics:Add("What does inflation refer to?",{"An increase in the general price level of goods and services.", "A decrease in the general price level of goods and services", "A stable economy with no price changes.", "A measure of economic growth"})
+Economics:Add("Which of the following is considered a type of market structure?",{"Monopoly", "Democracy", "Regulation", "Inflation"})
+Economics:Add("What is the purpose of a central bank?",{"To issue currency and manage monetary policy", "To regulate the stock market", "To control government spending", "To oversee international trade agreements"})
+
+local ScreamFranchise = CustomCategoryManager.New("ScreamFranchise")
+
+ScreamFranchise:Add("What is the name of the killer’s iconic mask in the Scream series?",{"Ghostface", "Grim Reaper", "Phantom", "The Shroud"})
+ScreamFranchise:Add("Which character is known for their famous line, 'What’s your favorite scary movie?",{"Randy Meeks", "Dewey Riley", "Sidney Prescott", "Gale Weathers" })
+ScreamFranchise:Add("In which Scream film does the character of Jill Roberts first appear?",{"Scream 4", "Scream 2", "Scream 3", "Scream (2022)"})
+ScreamFranchise:Add("What is the primary motive behind the killers in the first Scream film?",{"Revenge", "Fame", "Love", "Fear"}, 2)
+ScreamFranchise:Add("Which actress plays the role of Sidney Prescott throughout the franchise?",{"Neve Campbell", "Courteney Cox", "Drew Barrymore", "Sarah Michelle Gellar"})
+
+local Halloween = CustomCategoryManager.New("Halloween")
+
+Halloween:Add("What date is Halloween celebrated?",{"October 31", "October 30", "November 1", "October 25"})
+Halloween:Add("Which traditional activity involves children dressing up in costumes and going door-to-door asking for treats?",{"Trick Or Treating", "Boobing for apples", "Haunted House visiting", "Pumpkin Carving"})
+Halloween:Add("What is the name of the popular pumpkin-carving tradition associated with Halloween?",{"Jack o lantern", "Gourd lighting", "Spook lantern", "Pumpkin glow"})
+Halloween:Add("What does the word 'Halloween' originally mean?",{"All Hallows Eve", "Holy evening", "Harvest festival", "Ghost night"}, 2)
+Halloween:Add("In many cultures, what is a common symbol of Halloween?",{"All of the above", "Ghosts", "Witches", "Bats"})
+
+local Marvel = CustomCategoryManager.New("Marvel")
+
+Marvel:Add("Which superhero is known as the 'Web-Slinger'?",{"Spiderman", "Iron Man", "Thor", "Captain America"})
+Marvel:Add("What is the name of Thor’s hammer?",{"Mjolnir", "Stormbreaker", "Gungnir", "Excalibur"})
+Marvel:Add("Who is the founder of the Avengers in the Marvel Cinematic Universe (MCU)?",{"Nick Fury", "Tony Stark", "Steve Rogers", "Natasha Romanoff"}, 2)
+Marvel:Add("In the comics, what is the real name of Black Panther?",{"T Challa", "M Baku", "Erik Killmonger", "Okoye"})
+Marvel:Add("Which Infinity Stone is housed in the Tesseract?",{"Space Stone", "Mind Stone", "Time Stone", "Power Stone"})
+
+local MathExtremelyHard = CustomCategoryManager.New("MathExtremelyHard")
+
+MathExtremelyHard:Add("Algebra: What are the roots of the equation x4-4x3+6x2-4x+1=0?",{"1,1,1,1", "2,2,0,0", "3,-1,1,-1", "0,0,2,2"})
+MathExtremelyHard:Add("Which of the following numbers is prime?",{"97", "91", "77", "51"})
+MathExtremelyHard:Add("Linear Algebra: What is the determinant of the matrix B=(1 2 3 4)?",{"-10", "10", "7", "-7"}, 2)
+MathExtremelyHard:Add("Combinatorics: How many distinct permutations can be made from the letters in the word 'BANANA'?",{"30", "60", "20", "15"})
+MathExtremelyHard:Add("Evaluate the following definite integral: 3 down to 1 (4xE3-2xE2+x)dx",{"22", "30", "16", "18"}, 3)
+
+local Sayings And IdiomsHard = CustomCategoryManager.New("Sayings And Idioms", "hard")
+
+Sayings And IdiomsHard:Add("What does the idiom 'bite the bullet' mean?",{"To face a difficult situation bravely", "To eat something unpleasant", " To make a hasty decision", "To avoid responsibility"})
+Sayings And IdiomsHard:Add("What is the meaning of the saying 'the ball is in your court'?",{" It's your turn to make a decision", "You have won the game", "You need to follow the rules", "You should take a break"}, 2)
+Sayings And IdiomsHard:Add("If someone says 'the early bird catches the worm' what do they mean?",{" Those who wake up early have more opportunities", " It's important to feed birds regularly", "Timing is irrelevant in life", "Birds are better at finding food"})
+Sayings And IdiomsHard:Add("What does the idiom 'burning the midnight oil' refer to?",{"Working late into the night", "Wasting time", "Being overly ambitious", "Having a creative breakthrough"})
+Sayings And IdiomsHard:Add("What does it mean to 'let the cat out of the bag'?",{"To make a secret known", "To cause trouble", "To reveal a surprise", "To misplace something important"})
+
+local Star Wars = CustomCategoryManager.New("Star Wars")
+Star Wars:Add("Who is Luke Skywalker’s father?",{"Anakin Skywalker", "Obi-Wan Kenobi", "Han Solo", " Yoda"})
+Star Wars:Add("What is the name of the Wookiee home planet?",{"Kashyyyk", "Endor", "Naboo", "Hoth"})
+Star Wars:Add("Which droid is known for its fluency in over six million forms of communication?",{" C-3PO", "R2-D2", "BB-8", "K-2SO"}, 2)
+Star Wars:Add("What is the primary weapon used by Jedi Knights?",{"Lightsaber", "Blaster", "Thermal Detonator", "Bowcaster"})
+Star Wars:Add("Who was the Emperor of the Galactic Empire?",{"Palpatine", " Count Dooku", "Darth Vader", "Boba Fett"})
